@@ -13,7 +13,7 @@ function App(){
         <div>
             <h1>My Todo List</h1>
             <CreateTask onSubmit={handleSubmit}/>
-            {/* <TaskList/> */}
+            <TaskList tasks={tasks}/>
         </div>
     )
 }
